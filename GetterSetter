@@ -1,0 +1,18 @@
+class cookie{
+    constructor(color){
+        this.color=color
+    }
+    getColour(){
+        return this.color;
+    }
+    
+    setColour(color){
+        this.color =color
+    }
+}
+
+
+let cookie1 = new cookie("red");
+console.log(cookie1.getColour());
+cookie1.setColour('yellow');
+console.log(cookie1.getColour());
